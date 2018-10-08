@@ -3,6 +3,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Judul" />
+
+    <TextView
+        android:id="@+id/txtAyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Ayat"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/txtArti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Arti"
+        android:layout_marginTop="85dp"/>
 
 </RelativeLayout>
